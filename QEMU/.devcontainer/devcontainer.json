@@ -1,0 +1,14 @@
+{
+  "name": "ARM Cortex-M",
+  "image": "ubuntu:22.04",
+  "onCreateCommand": "bash .devcontainer/setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "marus25.cortex-debug",
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+  "remoteUser": "root"
+}
